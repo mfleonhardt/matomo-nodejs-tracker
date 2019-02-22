@@ -14,7 +14,7 @@ npm install --save matomo-tracker
 Then, use it in your project:
 
 ```javascript
-var MatomoTracker = require('matomo-tracker');
+import MatomoTracker from 'matomo-tracker';
 
 // Initialize with your site ID and Matomo URL
 var matomo = new MatomoTracker(1, 'http://mywebsite.com/matomo.php');
@@ -56,6 +56,8 @@ matomo.trackBulk(events, (resData) => {
   // done.
 })
 ```
+
+If you are having compatibility issues with older browsers, include this module in your babel-loader configuration.
 
 That's it. For a complete list of options, see [Matomo's Tracking HTTP API Reference](https://developer.matomo.org/api-reference/tracking-api).
 
