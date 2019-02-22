@@ -1,6 +1,7 @@
 # Matomo Tracker [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
-> A wrapper for the Matomo Tracking HTTP API
+> A wrapper for the Matomo Tracking HTTP API.
+> This fork focuses on ES5/webpack compatibility.
 
 ## Usage
 
